@@ -1,0 +1,161 @@
+*{
+    /*background-color:  #E5E5E5;*/
+    font-family:'Roboto', sans-serif;
+}
+main {
+    background-color: #E5E5E5;
+}
+/*barra de navegacion*/
+nav {
+    display: flex;/*al utilizar esta propiedad automáticamente los acomoda en una fila a todos los elementos*/
+    height: 100px;
+    background:#222222;
+    justify-content: space-between; /*con esta decimos como vamos a distribuir los elementos dentro de la línea*/
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;  
+    
+}
+
+
+nav ul{ /*le digo que van a ser propiedades del ul dentro del nav*/
+    display: flex;
+    justify-content: space-between;
+    list-style: none; /*para sacar los puntitos de la lista*/
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0 3em 0 3em;
+}
+
+nav img {
+    padding-left: 3em;
+}
+
+/*main*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.delivery {
+    position: relative;
+    margin-right: 5px;
+}
+
+.delivery img {
+    width: 490px;
+    height: 350px;
+    margin: 35px 0px;
+    
+}
+
+.delivery_titulo {
+    position: absolute;
+    top: 55px;
+    left: 40px;
+}
+
+.lan_titulo {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+}
+
+.lan_titulo2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color:white;
+}
+
+
+/*sector podio*/
+
+.podio{
+    position: relative;
+}
+
+.podio_fondo {
+    width: 490px;
+    height: 350px;
+    margin: 35px 0px;
+    
+}
+
+.podio_titulo{
+    position: absolute;
+    top: 55px;
+    left: 160px;
+}
+
+.podio_top5 {
+    position: absolute;
+    top:112px;
+    left: 51px;
+}
+
+.podio_top5 li{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.podio_top5 h3 {
+    padding-bottom: 15px;
+    padding-left: 18px;
+    font-size: 20px;
+}
+
+.podio_icono{
+    position: absolute;
+    top: 172px;
+    right: 74px;
+
+}
+
+/*footer*/
+
+footer{
+    display: flex;/*al utilizar esta propiedad automáticamente los acomoda en una fila a todos los elementos*/
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background:#222222;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;  
+    
+}
+
+
+footer ul{ 
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    list-style: none;    
+    align-items:flex-start;
+}
+
+footer ul li{
+    margin-left: 50px;
+    padding: 6px;
+}
+
+footer img {
+    width: 212px;
+    height: 80px;
+    margin-right: 80px;
+}
